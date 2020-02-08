@@ -126,5 +126,13 @@ namespace _03.LinQ {
             }
 
         }
+
+        /// <summary>
+        /// into 配合group by ,因为group by 是可以作为结束语等同select的，
+        /// group by xxx into aaa 等于将结果放到aaa中了然后再进行一波 筛选 查询这样
+        /// </summary>
+        static void Demo6() { 
+        
+        }
     }
 }
